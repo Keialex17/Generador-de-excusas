@@ -16,7 +16,7 @@ let randomExcusaQue = Math.floor(Math.random() * excusasque.length);
 
 let randomExcusaCuandi = Math.floor(Math.random() * excusascuando.length);
 
-generador.innerHTML = ` <h3>${excusasquien[randomExcusaQuien]} ${excusasque[randomExcusaQue]} ${excusascuando[randomExcusaCuandi]} </h3>`;
+generador.innerHTML = ` <h6>${excusasquien[randomExcusaQuien]} ${excusasque[randomExcusaQue]} ${excusascuando[randomExcusaCuandi]} </h6>`;
 
 let refresh = document.querySelector(".btn-outline-danger");
 refresh.addEventListener("click", e => {
